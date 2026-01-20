@@ -32,8 +32,8 @@ export function Philosophy() {
             }`}
           >
             <img
-              src="/minimalist-japanese-interior-design-with-natural-w.jpg"
-              alt="Минималистичный интерьер с натуральным деревом"
+              src="https://cdn.poehali.dev/projects/71ca950a-eb76-4d70-ae26-2143dad029e7/files/8b859aff-69fd-43dc-859c-275e96b1596d.jpg"
+              alt="Спокойная студия йоги в стиле Japandi"
               className="absolute inset-0 w-full h-full object-cover"
             />
             {/* Overlay accent */}
@@ -47,7 +47,7 @@ export function Philosophy() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
               }`}
             >
-              Наша философия
+              О нас
             </p>
 
             <h2
@@ -55,10 +55,10 @@ export function Philosophy() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              Искусство
-              <span className="italic"> осознанной</span>
+              Путь к
+              <span className="italic"> внутреннему</span>
               <br />
-              жизни
+              равновесию
             </h2>
 
             <div
@@ -67,13 +67,12 @@ export function Philosophy() {
               }`}
             >
               <p>
-                Мы верим, что каждое пространство таит в себе потенциал для преображения. Не через добавление,
-                а через бережное вычитание — открывая то, что всегда было предначертано.
+                Йога — это не просто физическая практика, а путь к гармонии с собой.
+                Мы помогаем обрести баланс, укрепить тело и успокоить ум.
               </p>
               <p>
-                Наш подход вдохновлён японской концепцией <em className="text-foreground">ма</em> — глубокой
-                красотой пустоты — и скандинавским пониманием
-                <em className="text-foreground"> хюгге</em>, этого ощущения уютного умиротворения.
+                Наша студия основана на принципах <em className="text-foreground">осознанности</em> и
+                <em className="text-foreground"> бережного отношения</em> к себе. Каждое занятие — это возможность преображения.
               </p>
             </div>
 
@@ -84,16 +83,16 @@ export function Philosophy() {
               }`}
             >
               <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">12</p>
+                <p className="font-serif text-3xl md:text-4xl text-sage">8</p>
                 <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Лет опыта</p>
               </div>
               <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">140+</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Проектов</p>
+                <p className="font-serif text-3xl md:text-4xl text-sage">500+</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Учеников</p>
               </div>
               <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">8</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Наград</p>
+                <p className="font-serif text-3xl md:text-4xl text-sage">15</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Направлений</p>
               </div>
             </div>
           </div>

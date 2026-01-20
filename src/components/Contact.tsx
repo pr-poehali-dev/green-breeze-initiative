@@ -44,22 +44,22 @@ export function Contact() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
               }`}
             >
-              Контакты
+              Запись на занятие
             </p>
             <h2
               className={`font-serif text-4xl md:text-5xl lg:text-6xl font-light text-foreground mb-8 text-balance transition-all duration-1000 delay-200 ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              Готовы начать?
+              Начните свой путь
             </h2>
             <p
               className={`text-muted-foreground leading-relaxed mb-12 max-w-md transition-all duration-1000 delay-300 ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              Каждое осмысленное пространство начинается с разговора. Расскажите о вашем видении,
-              и мы вместе найдём способ воплотить его в жизнь.
+              Запишитесь на пробное занятие или консультацию.
+              Мы поможем подобрать программу именно для вас.
             </p>
 
             {/* Contact Info */}
@@ -69,14 +69,14 @@ export function Contact() {
               }`}
             >
               <div>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Почта</p>
-                <a href="mailto:hello@example.com" className="text-foreground hover:text-sage transition-colors">
-                  hello@example.com
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Телефон</p>
+                <a href="tel:+79001234567" className="text-foreground hover:text-sage transition-colors">
+                  +7 (900) 123-45-67
                 </a>
               </div>
               <div>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Локация</p>
-                <p className="text-foreground">Москва и Санкт-Петербург</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Адрес</p>
+                <p className="text-foreground">Москва, ул. Примерная, 15</p>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@ export function Contact() {
                   onChange={(e) => setFormState({ ...formState, message: e.target.value })}
                   rows={4}
                   className="w-full bg-transparent border-b border-border py-3 text-foreground placeholder:text-muted-foreground/50 focus:border-sage focus:outline-none transition-colors resize-none"
-                  placeholder="Расскажите о вашем проекте..."
+                  placeholder="Расскажите о своём опыте и целях..."
                   required
                 />
               </div>
@@ -134,7 +134,7 @@ export function Contact() {
                 type="submit"
                 className="group inline-flex items-center gap-3 px-8 py-4 bg-sage text-primary-foreground text-sm tracking-widest uppercase hover:bg-sage/90 transition-all duration-500"
               >
-                Отправить
+                Записаться
                 <svg
                   className="w-4 h-4 transition-transform duration-500 group-hover:translate-x-1"
                   fill="none"
